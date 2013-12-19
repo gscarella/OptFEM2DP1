@@ -1,0 +1,3 @@
+Illegal alias format `Toolbox Version \1.\2"'. Use "name=value" or "name(n)=value", where n is the number of arguments
+Illegal alias format `Toolbox Version \1.\2"'. Use "name=value" or "name(n)=value", where n is the number of arguments
+Problems running latex. Check your installation or look for typos in _formulas.tex and check _formulas.log!

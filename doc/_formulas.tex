@@ -1,0 +1,313 @@
+\batchmode
+\documentclass{article}
+\usepackage{epsfig}
+\usepackage{/home/cuvelier/Matlab/FEM2Dtoolbox/OptFEM2DP1/doxygen/latexextras}
+\pagestyle{empty}
+\begin{document}
+$ P_1 $
+\pagebreak
+
+$ \StiffElas $
+\pagebreak
+
+\[ \StiffElas_{m,l}=\int_{\DOMH} \Odv^t(\BasisFuncTwoD_m) \Ocv(\BasisFuncTwoD_l)dT, \ \forall (m,l)\in\ENS{1}{2\,\nq}^2,\]
+\pagebreak
+
+$ \BasisFuncTwoD_m $
+\pagebreak
+
+$ \Ocv=(\Occ_{xx},\Occ_{yy},\Occ_{xy})^t $
+\pagebreak
+
+$ \Odv=(\Odc_{xx},\Odc_{yy},2\Odc_{xy})^t $
+\pagebreak
+
+$ \Masse $
+\pagebreak
+
+\[ \Masse_{i,j}=\int_\DOMH \FoncBase_i(\q)\, \FoncBase_j(\q)\, d\q,\ \forall (i,j)\in{\ENS{1}{\nq}}^2 \]
+\pagebreak
+
+$ \FoncBase_i $
+\pagebreak
+
+$ \MasseF{w} $
+\pagebreak
+
+\[ \MasseF{w}_{i,j}=\int_\DOMH w(\q)\FoncBase_i(\q) \FoncBase_j(\q) d\q,\ \forall (i,j)\in\ENS{1}{\nq}^2 \]
+\pagebreak
+
+$ \Stiff $
+\pagebreak
+
+\[ \Stiff_{i,j}=\int_\DOMH \DOT{\GRAD\FoncBase_i(\q)}{\GRAD\FoncBase_j(\q)}d\q,\ \forall (i,j)\in{\ENS{1}{\nq}}^2\]
+\pagebreak
+
+$2\times\nq$
+\pagebreak
+
+${\q}(\il,j)$
+\pagebreak
+
+$\il$
+\pagebreak
+
+$j$
+\pagebreak
+
+$\il\in\{1,2\}$
+\pagebreak
+
+$j\in\ENS{1}{\nq}$
+\pagebreak
+
+$3\times\nme$
+\pagebreak
+
+$\me(\jl,k)$
+\pagebreak
+
+$\jl$
+\pagebreak
+
+$k$
+\pagebreak
+
+$\q$
+\pagebreak
+
+$\jl\in\{1,2,3\}$
+\pagebreak
+
+$k\in{\ENS{1}{\nme}}$
+\pagebreak
+
+$1\times\nq$
+\pagebreak
+
+$1\times\nme$
+\pagebreak
+
+$2\times\nbe$
+\pagebreak
+
+$\be(\il,l)$
+\pagebreak
+
+$l$
+\pagebreak
+
+$l\in{\ENS{1}{\nbe}}$
+\pagebreak
+
+$1\times\nbe$
+\pagebreak
+
+$\nq$
+\pagebreak
+
+$\nme$
+\pagebreak
+
+$\nbe$
+\pagebreak
+
+$lbe(j)$
+\pagebreak
+
+$\lbe(j)$
+\pagebreak
+
+$[0,1]\times[0,1]$
+\pagebreak
+
+$y=0$
+\pagebreak
+
+$x=1$
+\pagebreak
+
+$y=1$
+\pagebreak
+
+$x=0$
+\pagebreak
+
+$P_1$
+\pagebreak
+
+$3\times 3$
+\pagebreak
+
+\[AElem=\frac{area}{12}\left( \begin{array}{ccc} 2 &1 &1 \\ 1 &2 &1 \\ 1 &1 &2 \end{array} \right)\]
+\pagebreak
+
+$3\times 1$
+\pagebreak
+
+$2\times 1$
+\pagebreak
+
+$\Masse$
+\pagebreak
+
+\[\Masse_{i,j}=\int_\DOMH \FoncBase_i(\q)\, \FoncBase_j(\q)\, d\q,\ \forall (i,j)\in{\ENS{1}{\nq}}^2\]
+\pagebreak
+
+$\FoncBase_i$
+\pagebreak
+
+$\nq\times\nq$
+\pagebreak
+
+$\MasseF{w}$
+\pagebreak
+
+\[\MasseF{w}_{i,j}=\int_\DOMH w(\q)\FoncBase_i(\q) \FoncBase_j(\q) d\q,\ \forall (i,j)\in{\ENS{1}{\nq}}^2\]
+\pagebreak
+
+$w$
+\pagebreak
+
+$Tw(i)=w(\q^i),$
+\pagebreak
+
+$\forall i\in\ENS{1}{\nq}$
+\pagebreak
+
+$\Stiff$
+\pagebreak
+
+\[\Stiff_{i,j}=\int_\DOMH \DOT{\GRAD\FoncBase_i(\q)}{\GRAD\FoncBase_j(\q)}d\q,\ \forall (i,j)\in{\ENS{1}{\nq}}^2\]
+\pagebreak
+
+\[\StiffElas_{m,l}=\int_{\DOMH} \Odv^t(\BasisFuncTwoD_m) \Ocv(\BasisFuncTwoD_l)dT, \ \forall (m,l)\in\ENS{1}{2\,\nq}^2,\]
+\pagebreak
+
+$\BasisFuncTwoD_m$
+\pagebreak
+
+$\Ocv=(\Occ_{xx},\Occ_{yy},\Occ_{xy})^t$
+\pagebreak
+
+$\Odv=(\Odc_{xx},\Odc_{yy},2\Odc_{xy})^t$
+\pagebreak
+
+$2\nq\times 2\nq$
+\pagebreak
+
+$36\times \nme$
+\pagebreak
+
+\[\Masse_{i,j}=\int_\DOMH \FoncBase_i(\q) \FoncBase_j(\q) d\q,\ \forall (i,j)\in{\ENS{1}{\nq}}^2\]
+\pagebreak
+
+\[\MasseF{w}_{i,j}=\int_\DOMH w(\q)\;\FoncBase_i(\q)\; \FoncBase_j(\q)\; d\q,\ \forall (i,j)\in{\ENS{1}{\nq}}^2\]
+\pagebreak
+
+\[\Masse_{i,j}=\int_\DOMH \FoncBase_i(\q) \FoncBase_j(\q) d\q,\ \forall (i,j)\in\ENS{1}{\nq}^2\]
+\pagebreak
+
+\[\int_\DOM u(x,y) v(x,y) dxdy \approx \DOT{\Masse \vecb{U}}{\vecb{V}}\]
+\pagebreak
+
+$\vecb{U}_i=u(\q^i)$
+\pagebreak
+
+$\vecb{V}_i=v(\q^i)$
+\pagebreak
+
+$u$
+\pagebreak
+
+$v$
+\pagebreak
+
+\[|\int_\DOM u\,v -\Pi_h(u)\,\Pi_h(v)d\DOM| \leq C h^2\]
+\pagebreak
+
+\[\MasseF{w}_{i,j}=\int_\DOMH w(\q)\FoncBase_i(\q) \FoncBase_j(\q) d\q,\ \forall (i,j)\in\ENS{1}{\nq}^2\]
+\pagebreak
+
+\[\int_\DOM w(x,y) u(x,y) v(x,y) dxdy \approx \DOT{\MasseF{w} \vecb{U}}{\vecb{V}}\]
+\pagebreak
+
+\[|\int_\DOM u\,v\,w -\Pi_h(u)\,\Pi_h(v)\,\Pi_h(w)d\DOM| \leq C h^2\]
+\pagebreak
+
+\[\Stiff_{i,j}=\int_\DOMH \DOT{\GRAD\FoncBase_i(\q)}{\GRAD\FoncBase_j(\q)}d\q,\ \forall (i,j)\in\ENS{1}{\nq}^2\]
+\pagebreak
+
+\[\int_\DOM \DOT{\GRAD u(\q)}{\GRAD v(\q)}d\q \approx \DOT{\Stiff \vecb{U}}{\vecb{V}}\]
+\pagebreak
+
+\[|\int_\DOM \DOT{\GRAD u}{\GRAD v} -\DOT{\GRAD \Pi_h(u)}{\GRAD \Pi_h(v)}d\DOM| \leq C h^2\]
+\pagebreak
+
+\[\int_\DOM \Odv^t(\vecb{u}) \Ocv(\vecb{v})d\q \approx \DOT{\StiffElas \vecb{U}}{\vecb{V}}\]
+\pagebreak
+
+$\foncdefsmall{\vecb{u}=(u_1,u_2)}{\DOM}{\R^2}$
+\pagebreak
+
+$\foncdefsmall{\vecb{v}=(v_1,v_2)}{\DOM}{\R^2}$
+\pagebreak
+
+$\vecb{U}_{2i-1}=u_1(\q^i),$
+\pagebreak
+
+$\vecb{U}_{2i}=u_2(\q^i),$
+\pagebreak
+
+$\vecb{V}_{2i-1}=v_1(\q^i),$
+\pagebreak
+
+$\vecb{V}_{2i}=v_2(\q^i)$
+\pagebreak
+
+$\vecb{U}_{i}=u_1(\q^i),$
+\pagebreak
+
+$\vecb{U}_{i+\nq}=u_2(\q^i),$
+\pagebreak
+
+$\vecb{V}_{i}=v_1(\q^i),$
+\pagebreak
+
+$\vecb{V}_{i+\nq}=v_2(\q^i)$
+\pagebreak
+
+$\vecb{u}$
+\pagebreak
+
+\[|\int_\DOM \Odv^t(\vecb{u}) \Ocv(\vecb{v})d\q - \DOT{\StiffElas \vecb{U}}{\vecb{V}}| \leq C h^2\]
+\pagebreak
+
+$\LaTeX{}$
+\pagebreak
+
+\[\mbox{\input{\INPUTLATEXDIR/benchMatlabR2012b_MassP1.tex}} \]
+\pagebreak
+
+\[\mbox{\input{\INPUTLATEXDIR/benchMatlabR2012b_MassWP1.tex}} \]
+\pagebreak
+
+\[\mbox{\input{\INPUTLATEXDIR/benchMatlabR2012b_StiffP1.tex}} \]
+\pagebreak
+
+\[\mbox{\input{\INPUTLATEXDIR/benchMatlabR2012b_StiffElasP1.tex}} \]
+\pagebreak
+
+\[\mbox{\input{\INPUTLATEXDIR/benchOctave3.6.3_MassP1.tex}} \]
+\pagebreak
+
+\[\mbox{\input{\INPUTLATEXDIR/benchOctave3.6.3_MassWP1.tex}} \]
+\pagebreak
+
+\[\mbox{\input{\INPUTLATEXDIR/benchOctave3.6.3_StiffP1.tex}} \]
+\pagebreak
+
+\[\mbox{\input{\INPUTLATEXDIR/benchOctave3.6.3_StiffElasP1.tex}} \]
+\pagebreak
+
+\end{document}

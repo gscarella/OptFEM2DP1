@@ -1,0 +1,102 @@
+\form#0:$ P_1 $
+\form#1:$ \StiffElas $
+\form#2:\[ \StiffElas_{m,l}=\int_{\DOMH} \Odv^t(\BasisFuncTwoD_m) \Ocv(\BasisFuncTwoD_l)dT, \ \forall (m,l)\in\ENS{1}{2\,\nq}^2,\]
+\form#3:$ \BasisFuncTwoD_m $
+\form#4:$ \Ocv=(\Occ_{xx},\Occ_{yy},\Occ_{xy})^t $
+\form#5:$ \Odv=(\Odc_{xx},\Odc_{yy},2\Odc_{xy})^t $
+\form#6:$ \Masse $
+\form#7:\[ \Masse_{i,j}=\int_\DOMH \FoncBase_i(\q)\, \FoncBase_j(\q)\, d\q,\ \forall (i,j)\in{\ENS{1}{\nq}}^2 \]
+\form#8:$ \FoncBase_i $
+\form#9:$ \MasseF{w} $
+\form#10:\[ \MasseF{w}_{i,j}=\int_\DOMH w(\q)\FoncBase_i(\q) \FoncBase_j(\q) d\q,\ \forall (i,j)\in\ENS{1}{\nq}^2 \]
+\form#11:$ \Stiff $
+\form#12:\[ \Stiff_{i,j}=\int_\DOMH \DOT{\GRAD\FoncBase_i(\q)}{\GRAD\FoncBase_j(\q)}d\q,\ \forall (i,j)\in{\ENS{1}{\nq}}^2\]
+\form#13:$2\times\nq$
+\form#14:${\q}(\il,j)$
+\form#15:$\il$
+\form#16:$j$
+\form#17:$\il\in\{1,2\}$
+\form#18:$j\in\ENS{1}{\nq}$
+\form#19:$3\times\nme$
+\form#20:$\me(\jl,k)$
+\form#21:$\jl$
+\form#22:$k$
+\form#23:$\q$
+\form#24:$\jl\in\{1,2,3\}$
+\form#25:$k\in{\ENS{1}{\nme}}$
+\form#26:$1\times\nq$
+\form#27:$1\times\nme$
+\form#28:$2\times\nbe$
+\form#29:$\be(\il,l)$
+\form#30:$l$
+\form#31:$l\in{\ENS{1}{\nbe}}$
+\form#32:$1\times\nbe$
+\form#33:$\nq$
+\form#34:$\nme$
+\form#35:$\nbe$
+\form#36:$lbe(j)$
+\form#37:$\lbe(j)$
+\form#38:$[0,1]\times[0,1]$
+\form#39:$y=0$
+\form#40:$x=1$
+\form#41:$y=1$
+\form#42:$x=0$
+\form#43:$P_1$
+\form#44:$3\times 3$
+\form#45:\[AElem=\frac{area}{12}\left( \begin{array}{ccc} 2 &1 &1 \\ 1 &2 &1 \\ 1 &1 &2 \end{array} \right)\]
+\form#46:$3\times 1$
+\form#47:$2\times 1$
+\form#48:$\Masse$
+\form#49:\[\Masse_{i,j}=\int_\DOMH \FoncBase_i(\q)\, \FoncBase_j(\q)\, d\q,\ \forall (i,j)\in{\ENS{1}{\nq}}^2\]
+\form#50:$\FoncBase_i$
+\form#51:$\nq\times\nq$
+\form#52:$\MasseF{w}$
+\form#53:\[\MasseF{w}_{i,j}=\int_\DOMH w(\q)\FoncBase_i(\q) \FoncBase_j(\q) d\q,\ \forall (i,j)\in{\ENS{1}{\nq}}^2\]
+\form#54:$w$
+\form#55:$Tw(i)=w(\q^i),$
+\form#56:$\forall i\in\ENS{1}{\nq}$
+\form#57:$\Stiff$
+\form#58:\[\Stiff_{i,j}=\int_\DOMH \DOT{\GRAD\FoncBase_i(\q)}{\GRAD\FoncBase_j(\q)}d\q,\ \forall (i,j)\in{\ENS{1}{\nq}}^2\]
+\form#59:\[\StiffElas_{m,l}=\int_{\DOMH} \Odv^t(\BasisFuncTwoD_m) \Ocv(\BasisFuncTwoD_l)dT, \ \forall (m,l)\in\ENS{1}{2\,\nq}^2,\]
+\form#60:$\BasisFuncTwoD_m$
+\form#61:$\Ocv=(\Occ_{xx},\Occ_{yy},\Occ_{xy})^t$
+\form#62:$\Odv=(\Odc_{xx},\Odc_{yy},2\Odc_{xy})^t$
+\form#63:$2\nq\times 2\nq$
+\form#64:$36\times \nme$
+\form#65:\[\Masse_{i,j}=\int_\DOMH \FoncBase_i(\q) \FoncBase_j(\q) d\q,\ \forall (i,j)\in{\ENS{1}{\nq}}^2\]
+\form#66:\[\MasseF{w}_{i,j}=\int_\DOMH w(\q)\;\FoncBase_i(\q)\; \FoncBase_j(\q)\; d\q,\ \forall (i,j)\in{\ENS{1}{\nq}}^2\]
+\form#67:\[\Masse_{i,j}=\int_\DOMH \FoncBase_i(\q) \FoncBase_j(\q) d\q,\ \forall (i,j)\in\ENS{1}{\nq}^2\]
+\form#68:\[\int_\DOM u(x,y) v(x,y) dxdy \approx \DOT{\Masse \vecb{U}}{\vecb{V}}\]
+\form#69:$\vecb{U}_i=u(\q^i)$
+\form#70:$\vecb{V}_i=v(\q^i)$
+\form#71:$u$
+\form#72:$v$
+\form#73:\[|\int_\DOM u\,v -\Pi_h(u)\,\Pi_h(v)d\DOM| \leq C h^2\]
+\form#74:\[\MasseF{w}_{i,j}=\int_\DOMH w(\q)\FoncBase_i(\q) \FoncBase_j(\q) d\q,\ \forall (i,j)\in\ENS{1}{\nq}^2\]
+\form#75:\[\int_\DOM w(x,y) u(x,y) v(x,y) dxdy \approx \DOT{\MasseF{w} \vecb{U}}{\vecb{V}}\]
+\form#76:\[|\int_\DOM u\,v\,w -\Pi_h(u)\,\Pi_h(v)\,\Pi_h(w)d\DOM| \leq C h^2\]
+\form#77:\[\Stiff_{i,j}=\int_\DOMH \DOT{\GRAD\FoncBase_i(\q)}{\GRAD\FoncBase_j(\q)}d\q,\ \forall (i,j)\in\ENS{1}{\nq}^2\]
+\form#78:\[\int_\DOM \DOT{\GRAD u(\q)}{\GRAD v(\q)}d\q \approx \DOT{\Stiff \vecb{U}}{\vecb{V}}\]
+\form#79:\[|\int_\DOM \DOT{\GRAD u}{\GRAD v} -\DOT{\GRAD \Pi_h(u)}{\GRAD \Pi_h(v)}d\DOM| \leq C h^2\]
+\form#80:\[\int_\DOM \Odv^t(\vecb{u}) \Ocv(\vecb{v})d\q \approx \DOT{\StiffElas \vecb{U}}{\vecb{V}}\]
+\form#81:$\foncdefsmall{\vecb{u}=(u_1,u_2)}{\DOM}{\R^2}$
+\form#82:$\foncdefsmall{\vecb{v}=(v_1,v_2)}{\DOM}{\R^2}$
+\form#83:$\vecb{U}_{2i-1}=u_1(\q^i),$
+\form#84:$\vecb{U}_{2i}=u_2(\q^i),$
+\form#85:$\vecb{V}_{2i-1}=v_1(\q^i),$
+\form#86:$\vecb{V}_{2i}=v_2(\q^i)$
+\form#87:$\vecb{U}_{i}=u_1(\q^i),$
+\form#88:$\vecb{U}_{i+\nq}=u_2(\q^i),$
+\form#89:$\vecb{V}_{i}=v_1(\q^i),$
+\form#90:$\vecb{V}_{i+\nq}=v_2(\q^i)$
+\form#91:$\vecb{u}$
+\form#92:\[|\int_\DOM \Odv^t(\vecb{u}) \Ocv(\vecb{v})d\q - \DOT{\StiffElas \vecb{U}}{\vecb{V}}| \leq C h^2\]
+\form#93:$\LaTeX{}$
+\form#94:\[\mbox{\input{\INPUTLATEXDIR/benchMatlabR2012b_MassP1.tex}} \]
+\form#95:\[\mbox{\input{\INPUTLATEXDIR/benchMatlabR2012b_MassWP1.tex}} \]
+\form#96:\[\mbox{\input{\INPUTLATEXDIR/benchMatlabR2012b_StiffP1.tex}} \]
+\form#97:\[\mbox{\input{\INPUTLATEXDIR/benchMatlabR2012b_StiffElasP1.tex}} \]
+\form#98:\[\mbox{\input{\INPUTLATEXDIR/benchOctave3.6.3_MassP1.tex}} \]
+\form#99:\[\mbox{\input{\INPUTLATEXDIR/benchOctave3.6.3_MassWP1.tex}} \]
+\form#100:\[\mbox{\input{\INPUTLATEXDIR/benchOctave3.6.3_StiffP1.tex}} \]
+\form#101:\[\mbox{\input{\INPUTLATEXDIR/benchOctave3.6.3_StiffElasP1.tex}} \]
