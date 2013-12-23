@@ -30,6 +30,7 @@ Requirements
 Testing and Working
 ----------------------
     Ubuntu 12.04 LTS (x86_64) with
+        Matlab R2013b
         Matlab R2013a
         Matlab R2012b
         Matlab R2012a
@@ -58,7 +59,7 @@ This version is with html documentation.
     open in a web browser the file <doc/index.html>
     
 * To see the code documentation online :
-   <www.math.univ-paris13.fr/~cuvelier/docs/Recherch/FEM2Dtoolbox/doc/V1.2b3/index.html>
+   <http://www.math.univ-paris13.fr/~cuvelier/docs/Recherch/FEM2Dtoolbox/doc/V1.2b3/index.html>
 
 * To get the code documentation :
    <http://hal.archives-ouvertes.fr/hal-00785101> 
@@ -80,16 +81,16 @@ If not, see http://www.gnu.org/licenses/.
 
 Software using source files of this project or significant parts of it,
 should include the following attribution notice:
-% --------------------------------------------------------------------
-% ATTRIBUTION NOTICE:
-% This product includes software developed for the OptFEM2DP1 project at
-% (C) University Paris XIII, Galilee Institute, LAGA, France.
-%
-% OptFEM2DP1 is a MATLAB/Octave software package for P1-Lagrange Finite Element Methods in 2D.
-% The project is maintained by
-% F. Cuvelier, C. Japhet and G. Scarella.
-% For Online Documentation and Download we refer to
-% <www.math.univ-paris13.fr/~cuvelier>
-% --------------------------------------------------------------------
+\% --------------------------------------------------------------------
+\% ATTRIBUTION NOTICE:
+\% This product includes software developed for the OptFEM2DP1 project at
+\% (C) University Paris XIII, Galilee Institute, LAGA, France.
+\%
+\% OptFEM2DP1 is a MATLAB/Octave software package for P1-Lagrange Finite Element Methods in 2D.
+\% The project is maintained by
+\% F. Cuvelier, C. Japhet and G. Scarella.
+\% For Online Documentation and Download we refer to
+\% <www.math.univ-paris13.fr/~cuvelier>
+\% --------------------------------------------------------------------
 
     
