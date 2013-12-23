@@ -82,16 +82,16 @@ If not, see http://www.gnu.org/licenses/.
 Software using source files of this project or significant parts of it,
 should include the following attribution notice:
 
-% ---------------------------------------------------------------------------------------------
-% ATTRIBUTION NOTICE:
-% This product includes software developed for the OptFEM2DP1 project at
-% (C) University Paris XIII, Galilee Institute, LAGA, France.
-%
-% OptFEM2DP1 is a MATLAB/Octave software package for P1-Lagrange Finite Element Methods in 2D.
-% The project is maintained by
-% F. Cuvelier, C. Japhet and G. Scarella.
-% For Online Documentation and Download we refer to
-% <http://www.math.univ-paris13.fr/~cuvelier>
+% ---------------------------------------------------------------------------------------------<br />
+% ATTRIBUTION NOTICE:<br />
+% This product includes software developed for the OptFEM2DP1 project at <br />
+% (C) University Paris XIII, Galilee Institute, LAGA, France. <br />
+% <br />
+% OptFEM2DP1 is a MATLAB/Octave software package for P1-Lagrange Finite Element Methods in 2D. <br />
+% The project is maintained by <br />
+% F. Cuvelier, C. Japhet and G. Scarella. <br />
+% For Online Documentation and Download we refer to <br />
+% <http://www.math.univ-paris13.fr/~cuvelier> <br />
 % ---------------------------------------------------------------------------------------------
 
     
